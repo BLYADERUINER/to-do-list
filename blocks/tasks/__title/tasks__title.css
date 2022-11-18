@@ -1,0 +1,9 @@
+.tasks__title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  margin: 0 0 15px;
+  padding: 0;
+}

@@ -1,0 +1,8 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  max-width: 1280px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}

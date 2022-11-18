@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
+    <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
+  <body class="page">
+    <header class="header page__header">
+      <div class="header__text">
+        <h1 class="header__title">To&nbsp;Do&nbsp;List</h1>
+        <p class="header__subtitle">заметки для твоей головы</p>
+      </div>
+      <img
+        class="header__image"
+        src="./images/header/header__image.png"
+        alt="иконка"
+      />
+    </header>
+    <main class="main page__main">
+      <section class="list main__list">
+        <ul class="list__tasks">
+          <li class="list__task">
+            <img
+              class="list__image"
+              src="./images/list/iconlist.png"
+              alt="иконка"
+            />
+            <h2 class="list__name">Список дел пуст</h2>
+          </li>
+        </ul>
+      </section>
+      <section class="tasks main__tasks">
+        <h2 class="tasks__title">Добавить новую заметку</h2>
+        <form class="tasks__form" name="" method="post">
+          <input class="tasks__input" type="text" />
+          <button class="tasks__button" type="button">Добавить</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer page__footer">
+      <p class="footer__author">&copy; BLYADERUINER</p>
+      <a class="footer__link" href="https://github.com/BLYADERUINER"
+        >&#128640;GitHub</a
+      >
+      <a class="footer__link" href="https://t.me/blyaderuiner"
+        >&#128140;Telegram</a
+      >
+    </footer>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,11 @@
+.list__name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: .8;
+  text-decoration: underline;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0
+}

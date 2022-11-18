@@ -1,0 +1,4 @@
+.tasks__form {
+  display: grid;
+  grid-row-gap: 20px;
+}
