@@ -22,7 +22,7 @@
     <main class="main page__main">
       <section class="list main__list">
         <ul class="list__tasks">
-          <li class="list__task">
+          <li class="list__default">
             <img
               class="list__image"
               src="./images/list/iconlist.png"
@@ -34,9 +34,9 @@
       </section>
       <section class="tasks main__tasks">
         <h2 class="tasks__title">Добавить новую заметку</h2>
-        <form class="tasks__form" name="" method="post">
+        <form class="tasks__form" name="taskFormName" method="post">
           <input class="tasks__input" type="text" />
-          <button class="tasks__button" type="button">Добавить</button>
+          <button class="tasks__button" type="submit">Добавить</button>
         </form>
       </section>
     </main>
@@ -49,6 +49,17 @@
         >&#128140;Telegram</a
       >
     </footer>
+
+    <template id="template">
+      <li class="list__task">
+        <div class="list__container">
+          <input class="list__checkbox" type="checkbox" name="complatedTask" />
+          <h2 class="list__name">123</h2>
+        </div>
+        <button class="list__button-bin" type="button"></button>
+      </li>
+    </template>
+
     <script src="./scripts/index.js"></script>
   </body>
 </html>

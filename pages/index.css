@@ -25,6 +25,10 @@
 @import url(../blocks/list/__task/list__task.css);
 @import url(../blocks/list/__image/list__image.css);
 @import url(../blocks/list/__name/list__name.css);
+@import url(../blocks/list/__container/list__container.css);
+@import url(../blocks/list/__default/list__default.css);
+@import url(../blocks/list/__checkbox/list__checkbox.css);
+@import url(../blocks/list/__button-bin/list__button-bin.css);
 
 /* tasks */
 @import url(../blocks/tasks/tasks.css);

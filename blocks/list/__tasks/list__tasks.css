@@ -1,5 +1,7 @@
 .list__tasks {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
   list-style: none;
 }
