@@ -21,6 +21,7 @@
 
 /* list */
 @import url(../blocks/list/list.css);
+@import url(../blocks/list/__delete/list__delete.css);
 @import url(../blocks/list/__tasks/list__tasks.css);
 @import url(../blocks/list/__task/list__task.css);
 @import url(../blocks/list/__image/list__image.css);
@@ -29,6 +30,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/list/__button-completed/list__button-completed.css);
 @import url(../blocks/list/__button-bin/list__button-bin.css);
+@import url(../blocks/list/__task-done/list__task-done.css);
 
 /* tasks */
 @import url(../blocks/tasks/tasks.css);

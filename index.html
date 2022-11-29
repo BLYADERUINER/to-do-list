@@ -35,7 +35,7 @@
       <section class="tasks main__tasks">
         <h2 class="tasks__title">Добавить новую заметку</h2>
         <form class="tasks__form" name="taskFormName" method="post">
-          <input class="tasks__input" type="text" />
+          <input class="tasks__input" type="text" placeholder="" required />
           <button class="tasks__button" type="submit">Добавить</button>
         </form>
       </section>
@@ -54,8 +54,8 @@
       <li class="list__task">
         <h2 class="list__name"></h2>
         <div class="list__container">
-          <button class="button list__button-completed" type="button"></button>
-          <button class="button list__button-bin" type="button"></button>
+          <button class="button list__button-completed" data-action="done" type="button"></button>
+          <button class="button list__button-bin" data-action="delete" type="button"></button>
         </div>
       </li>
     </template>
