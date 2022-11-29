@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button:hover {
+  transition: all 0.2s linear;
+}

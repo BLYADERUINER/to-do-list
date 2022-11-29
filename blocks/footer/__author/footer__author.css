@@ -6,3 +6,9 @@
   margin: 5px 0 0 10px;
   color: #4aac7a;
 }
+
+@media screen and (max-width: 568px) {
+  .footer__author {
+    font-size: 12px;
+  }
+}

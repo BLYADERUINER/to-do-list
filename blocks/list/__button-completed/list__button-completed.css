@@ -1,5 +1,5 @@
-.list__button-bin {
-  background-image: url(../../../images/list/icon2.svg);
+.list__button-completed {
+  background-image: url(../../../images/list/icon1.svg);
   background-repeat: no-repeat;
   background-size: 25px;
   box-sizing: border-box;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 568px) {
-  .list__button-bin{
+  .list__button-completed {
     background-size: 18px;
     width: 18px;
     height: 18px;

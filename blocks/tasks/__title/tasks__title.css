@@ -7,3 +7,9 @@
   margin: 0 0 15px;
   padding: 0;
 }
+
+@media screen and (max-width: 1060px) {
+  .tasks__title {
+    font-size: 14px;
+  }
+}
