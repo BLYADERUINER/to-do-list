@@ -22,14 +22,14 @@
     <main class="main page__main">
       <section class="list main__list">
         <ul class="list__tasks">
-          <li class="list__default">
+          <!-- <li class="list__default">
             <img
               class="list__image"
               src="./images/list/iconlist.png"
               alt="иконка"
             />
             <h2 class="list__name">Список дел пуст</h2>
-          </li>
+          </li> -->
         </ul>
       </section>
       <section class="tasks main__tasks">
@@ -49,17 +49,23 @@
         >&#128140;Telegram</a
       >
     </footer>
-
     <template id="template">
       <li class="list__task">
         <h2 class="list__name"></h2>
         <div class="list__container">
-          <button class="button list__button-completed" data-action="done" type="button"></button>
-          <button class="button list__button-bin" data-action="delete" type="button"></button>
+          <button
+            class="button list__button-completed"
+            data-action="done"
+            type="button"
+          ></button>
+          <button
+            class="button list__button-bin"
+            data-action="delete"
+            type="button"
+          ></button>
         </div>
       </li>
     </template>
-
     <script src="./scripts/index.js"></script>
   </body>
 </html>
